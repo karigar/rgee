@@ -23,7 +23,7 @@ ndviParams <- list(palette = c(
   "#d73027", "#f46d43", "#fdae61", "#fee08b",
   "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850"
 ))
-ndwiParams <- list(min = -0.5, max = 0.5, palette = c("FF0000", "FFFFFF", "0000FF"))
+ndviParams <- list(min = -0.5, max = 0.5, palette = c("FF0000", "FFFFFF", "0000FF"))
 
 Map$centerObject(ndvi1)
 Map$addLayer(ndvi1, ndviParams, "NDVI 1") +
